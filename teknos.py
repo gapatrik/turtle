@@ -1,0 +1,17 @@
+import turtle               
+anlak= turtle.Screen()        
+alex = turtle.Turtle() 
+
+def rajz(szogek_szama, szin):         
+    hossz =100                 
+   
+    alex.color(szin)
+    for i in range(szogek_szama):
+        alex.forward(hossz)
+        alex.left(360/szogek_szama)
+        
+rajz(3, 'purple')      
+rajz(4,  'red')      
+rajz(5, 'green')
+rajz(6, 'orange')   
+    
